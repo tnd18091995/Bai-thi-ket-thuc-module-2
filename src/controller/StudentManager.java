@@ -63,15 +63,6 @@ public class StudentManager {
         studentsList.add(student);
         readWriteFileStudent.writeFile(studentsList);
     }
-    public static void findStudent(int id) {
-        for (Student student : studentsList) {
-            if (student.getId() == id) {
-                System.out.println(student);
-                return;
-            }
-        }
-        System.out.println("Not Student Found!");
-    }
     public static void removeStudent(int id) {
         Student removeStudents = null;
         for (Student student : studentsList) {
