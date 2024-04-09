@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReadWriteFile implements IReadWriteFile {
-    public static final String PATHNAME_STUDENT = "studentList.txt";
+//    public static final String PATHNAME_STUDENT = "studentList.txt";
+    public static final String PATHNAME_STUDENT = "ListDataStudent.csv";
 
     public void writeFile(List<Student> students){
         File fileStudent = new File(PATHNAME_STUDENT);
